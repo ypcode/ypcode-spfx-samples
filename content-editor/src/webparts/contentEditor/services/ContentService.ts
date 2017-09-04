@@ -57,9 +57,8 @@ export class ContentService implements IContentService {
     public isProperlyConfigured(): boolean {
         let config = this.configuration();
 
-        return (config.sourceFormat != null
+        return config.sourceFormat != null
             && config.sourceType != null
-            && (config.sourceContent || config.sourceLink))
             && true;
     }
 
