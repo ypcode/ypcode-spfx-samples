@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.1.1",
+    "libraryName": "kanban-webpart-demo",
+    "libraryId": "46d16293-e6d5-4fd4-9e24-814fa512b1d1",
+    "environment": "spo"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "kanban-webpart",
+    "id": "d75b527a-3cb4-4adb-b549-f04fa48095f5",
+    "version": "2.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/kanban-webpart.sppkg"
+  }
+}
