@@ -1,6 +1,3 @@
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-
 import { Log } from '@microsoft/sp-core-library';
 import { override } from '@microsoft/decorators';
 import {
@@ -8,6 +5,7 @@ import {
   IFieldCustomizerCellEventParameters
 } from '@microsoft/sp-listview-extensibility';
 
+import styles from "./importantMarker.module.scss";
 
 /**
  * If your field customizer uses the ClientSideComponentProperties JSON input,
@@ -35,8 +33,8 @@ export default class ImportantMarkerFieldCustomizer
 
   @override
   public onRenderCell(event: IFieldCustomizerCellEventParameters): void {
-    event.domElement.innerHTML = event.fieldValue
-    ? `<i class="ms-fontColor-red ms-Icon ms-Icon--Important" /> `
+    event.domElement.innerHTML = event.fieldValue == "Yes"
+    ? `<span class="${styles.importantMarker}">IMPORTANT</span> `
     : "";
   }
 

@@ -1,8 +1,0 @@
-{
-  "@microsoft/generator-sharepoint": {
-    "version": "1.2.0",
-    "libraryName": "motd-extension",
-    "libraryId": "17b9fd3a-5597-4bfc-b956-3d7ca9516016",
-    "environment": "spo"
-  }
-}
