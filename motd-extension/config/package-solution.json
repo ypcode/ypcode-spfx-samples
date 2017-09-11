@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "motd-extension-client-side-solution",
+    "id": "17b9fd3a-5597-4bfc-b956-3d7ca9516016",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/motd-extension.sppkg"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.2.0",
+    "libraryName": "ypcode-extensions",
+    "libraryId": "393a54ec-8cd6-4082-aec0-558301ee8ad7",
+    "environment": "spo"
+  }
+}

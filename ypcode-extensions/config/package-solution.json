@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ypcode-extensions-client-side-solution",
+    "id": "393a54ec-8cd6-4082-aec0-558301ee8ad7",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/ypcode-extensions.sppkg"
+  }
+}

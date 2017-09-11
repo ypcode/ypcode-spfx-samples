@@ -1,0 +1,34 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "mark-as-important-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/markAsImportant/MarkAsImportantCommandSet.js",
+          "manifest": "./src/extensions/markAsImportant/MarkAsImportantCommandSet.manifest.json"
+        }
+      ]
+    },
+    "motd-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/motdBanner/MotdApplicationCustomizer.js",
+          "manifest": "./src/extensions/motdBanner/MotdApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "important-marker-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/importantMarker/ImportantMarkerFieldCustomizer.js",
+          "manifest": "./src/extensions/importantMarker/ImportantMarkerFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "MarkAsImportantCommandSetStrings": "lib/extensions/markAsImportant/loc/{locale}.js"
+  }
+}
