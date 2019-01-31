@@ -21,7 +21,7 @@
       }
     },
     "panelCommandSet": {
-      "pageUrl": "https://ypcodelab.sharepoint.com/sites/team02/Lists/MyList/AllItems.aspx",
+      "pageUrl": "https://contoso.sharepoint.com/sites/team02/Lists/MyList/AllItems.aspx",
       "customActions": {
         "506494b1-0cb4-4f4a-a5e5-80c2ea92d191": {
           "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
