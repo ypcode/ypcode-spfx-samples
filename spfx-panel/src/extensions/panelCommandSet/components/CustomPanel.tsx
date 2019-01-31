@@ -7,6 +7,7 @@ const pnpSuperHero = require("../../../assets/pnphero.png");
 
 export interface ICustomPanelState {
   saving: boolean;
+  editedTitle: string;
 }
 
 export interface ICustomPanelProps {
@@ -19,18 +20,17 @@ export interface ICustomPanelProps {
 
 export default class CustomPanel extends React.Component<ICustomPanelProps, ICustomPanelState> {
 
-  private editedTitle: string = null;
-
   constructor(props: ICustomPanelProps) {
     super(props);
     this.state = {
-      saving: false
+      saving: false,
+      editedTitle: props.currentTitle
     };
   }
 
   @autobind
   private _onTitleChanged(title: string) {
-    this.editedTitle = title;
+    this.setState({editedTitle: title});
   }
 
   @autobind
@@ -43,7 +43,7 @@ export default class CustomPanel extends React.Component<ICustomPanelProps, ICus
     this.setState({ saving: true });
     // Update the list item title using PnP JS
     sp.web.lists.getById(this.props.listId).items.getById(this.props.itemId).update({
-      'Title': this.editedTitle
+      'Title': this.state.editedTitle
     }).then(() => {
       this.setState({ saving: false });
       this.props.onClose();
@@ -62,7 +62,7 @@ export default class CustomPanel extends React.Component<ICustomPanelProps, ICus
   }
 
   public render(): React.ReactElement<ICustomPanelProps> {
-    let { isOpen, currentTitle } = this.props;
+    let { isOpen } = this.props;
     return (
       <Panel isOpen={isOpen} type={PanelType.medium} onRenderFooterContent={this._onRenderFooterContent}>
         <h2>Item editor</h2>
@@ -71,7 +71,7 @@ export default class CustomPanel extends React.Component<ICustomPanelProps, ICus
             <img style={{ width: "100px" }} src={`${pnpSuperHero}`} />
           </div>
           <div className="ms-Grid-col ms-sm12 ms-md6">
-            <TextField value={currentTitle} onChanged={this._onTitleChanged} label="Item title" placeholder="Choose the new title" />
+            <TextField value={this.state.editedTitle} onChanged={this._onTitleChanged} label="Item title" placeholder="Choose the new title" />
             <p>
               From this form you can simply update the title of the selected item.
               Change the name in the field above and click the "Apply" button.
