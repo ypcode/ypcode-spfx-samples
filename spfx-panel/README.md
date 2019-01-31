@@ -1,26 +1,20 @@
 ## spfx-panel
 
-This is where you include your WebPart documentation.
+# MPA (Minimum Path to Awesome)
 
-### Building the code
+- Update the config/serve.json to set the URL of a page on your tenant
 
-```bash
-git clone the repo
-npm i
-npm i -g gulp
-gulp
+```json
+  "panelCommandSet": {
+      "pageUrl": "https://.sharepoint.com/sites/mySite/SitePages/myPage.aspx", // This should be updated
+      "customActions": {
+        "506494b1-0cb4-4f4a-a5e5-80c2ea92d191": {
+          "location": "ClientSideExtension.ListViewCommandSet.CommandBar",
+          "properties": {
+          }
+        }
+      }
+    }
 ```
 
-This package produces the following:
-
-* lib/* - intermediate-stage commonjs build artifacts
-* dist/* - the bundled script, along with other resources
-* deploy/* - all resources which should be uploaded to a CDN.
-
-### Build options
-
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+- type command gulp serve --config panelCommandSet

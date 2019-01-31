@@ -7,6 +7,7 @@ import {
   IListViewCommandSetExecuteEventParameters
 } from '@microsoft/sp-listview-extensibility';
 import { Dialog } from '@microsoft/sp-dialog';
+import {sp} from "@pnp/sp";
 
 import * as strings from 'PanelCommandSetCommandSetStrings';
 
@@ -28,26 +29,28 @@ export default class PanelCommandSetCommandSet extends BaseListViewCommandSet<IP
   @override
   public onInit(): Promise<void> {
     Log.info(LOG_SOURCE, 'Initialized PanelCommandSetCommandSet');
+
+    // Setup the PnP JS with SPFx context
+    sp.setup({
+      spfxContext: this.context
+    });
+
+
     return Promise.resolve();
   }
 
   @override
   public onListViewUpdated(event: IListViewCommandSetListViewUpdatedParameters): void {
-    const compareOneCommand: Command = this.tryGetCommand('COMMAND_1');
-    if (compareOneCommand) {
-      // This command should be hidden unless exactly one row is selected.
-      compareOneCommand.visible = event.selectedRows.length === 1;
-    }
+    const openEditorCommand: Command = this.tryGetCommand('CMD_PANEL');
+    openEditorCommand.visible = event.selectedRows.length === 1;
   }
 
   @override
   public onExecute(event: IListViewCommandSetExecuteEventParameters): void {
+
     switch (event.itemId) {
-      case 'COMMAND_1':
-        Dialog.alert(`${this.properties.sampleTextOne}`);
-        break;
-      case 'COMMAND_2':
-        Dialog.alert(`${this.properties.sampleTextTwo}`);
+      case 'CMD_PANEL':
+        alert("The command is executed !");
         break;
       default:
         throw new Error('Unknown command');
