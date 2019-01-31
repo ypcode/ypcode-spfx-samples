@@ -35,7 +35,7 @@ export default class WebPartWithPanel extends React.Component<IWebPartWithPanelP
     this.setState({
       showPanel: false,
       messageDraft: this.state.message
-    })
+    });
   }
 
   @autobind
@@ -60,7 +60,7 @@ export default class WebPartWithPanel extends React.Component<IWebPartWithPanelP
         <DefaultButton onClick={this._onCancel}>Cancel</DefaultButton>
       </div>
     );
-  };
+  }
 
   public render(): React.ReactElement<IWebPartWithPanelProps> {
     let { showPanel, message, messageDraft } = this.state;
@@ -71,7 +71,7 @@ export default class WebPartWithPanel extends React.Component<IWebPartWithPanelP
             onDismiss={this._onCancel}
             headerText="My Custom panel"
             onRenderFooterContent={this._onRenderFooterContent}>
-            <TextField label="Message" value={messageDraft} onChanged={this._onMessageChanged} />
+            <TextField label="Message" value={messageDraft} onChanged={this._onMessageChanged} autoComplete="off" />
           </Panel>
           <h1>{message}</h1>
           <Button text="Open panel" onClick={this._openPanel} />

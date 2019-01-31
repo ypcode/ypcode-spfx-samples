@@ -1,3 +1,5 @@
+import * as React from 'react';
+import * as ReactDom from 'react-dom';
 import { override } from '@microsoft/decorators';
 import { Log } from '@microsoft/sp-core-library';
 import {
@@ -7,9 +9,12 @@ import {
   IListViewCommandSetExecuteEventParameters
 } from '@microsoft/sp-listview-extensibility';
 import { Dialog } from '@microsoft/sp-dialog';
-import {sp} from "@pnp/sp";
+import { sp } from "@pnp/sp";
 
 import * as strings from 'PanelCommandSetCommandSetStrings';
+import { autobind, assign } from '@uifabric/utilities';
+
+import CustomPanel, { ICustomPanelProps } from "./components/CustomPanel";
 
 /**
  * If your command set uses the ClientSideComponentProperties JSON input,
@@ -26,6 +31,8 @@ const LOG_SOURCE: string = 'PanelCommandSetCommandSet';
 
 export default class PanelCommandSetCommandSet extends BaseListViewCommandSet<IPanelCommandSetCommandSetProperties> {
 
+  private panelDomElement: HTMLDivElement;
+
   @override
   public onInit(): Promise<void> {
     Log.info(LOG_SOURCE, 'Initialized PanelCommandSetCommandSet');
@@ -35,6 +42,7 @@ export default class PanelCommandSetCommandSet extends BaseListViewCommandSet<IP
       spfxContext: this.context
     });
 
+    this.panelDomElement = document.body.appendChild(document.createElement("div"));
 
     return Promise.resolve();
   }
@@ -50,10 +58,41 @@ export default class PanelCommandSetCommandSet extends BaseListViewCommandSet<IP
 
     switch (event.itemId) {
       case 'CMD_PANEL':
-        alert("The command is executed !");
+        let selectedItem = event.selectedRows[0];
+        const listItemId = selectedItem.getValueByName('ID') as number;
+        const title = selectedItem.getValueByName("Title");
+        this._showPanel(listItemId, title);
         break;
       default:
         throw new Error('Unknown command');
     }
   }
+
+
+  private _showPanel(itemId: number, currentTitle: string) {
+    this._renderPanelComponent({
+      isOpen: true,
+      currentTitle,
+      itemId,
+      listId: this.context.pageContext.list.id.toString(),
+      onClose: this._dismissPanel
+    });
+  }
+
+  @autobind
+  private _dismissPanel() {
+    this._renderPanelComponent({ isOpen: false });
+  }
+
+  private _renderPanelComponent(props: any) {
+    const element: React.ReactElement<ICustomPanelProps> = React.createElement(CustomPanel, assign({
+      onClose: null,
+      currentTitle: null,
+      itemId: null,
+      isOpen: false,
+      listId: null
+    }, props));
+    ReactDom.render(element, this.panelDomElement);
+  }
+
 }
