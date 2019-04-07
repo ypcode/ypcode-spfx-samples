@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "tuto-test-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/tutoTest/TutoTestWebPart.js",
+          "manifest": "./src/webparts/tutoTest/TutoTestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TutoTestWebPartStrings": "lib/webparts/tutoTest/loc/{locale}.js"
+  }
+}
