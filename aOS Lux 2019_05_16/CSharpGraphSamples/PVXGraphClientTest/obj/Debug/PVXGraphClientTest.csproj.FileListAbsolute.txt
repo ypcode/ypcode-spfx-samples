@@ -1,0 +1,97 @@
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\PVXGraphClientTest.exe.config
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\PVXGraphClientTest.exe
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\PVXGraphClientTest.pdb
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Graph.Core.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Graph.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Identity.Client.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Graph.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Graph.Core.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Identity.Client.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.csprojAssemblyReference.cache
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.csproj.CoreCompileInputs.cache
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.csproj.CopyComplete
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.exe
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.pdb
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.ContestForm.resources
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.csproj.GenerateResource.cache
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\QRCoder.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\System.Drawing.Common.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.QRCodeDisplayer.resources
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Owin.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.OpenIdConnect.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Owin.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.pdb
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Logging.pdb
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.pdb
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.pdb
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Tokens.pdb
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Owin.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\System.IdentityModel.Tokens.Jwt.pdb
+C:\Workspace\pvx\Labs\PVXGraphClientTest\PVXGraphClientTest\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\PVXGraphClientTest.exe.config
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\PVXGraphClientTest.exe
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\PVXGraphClientTest.pdb
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Graph.Core.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Graph.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Identity.Client.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Owin.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.OpenIdConnect.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Newtonsoft.Json.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Owin.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\QRCoder.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\System.Drawing.Common.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Graph.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Graph.Core.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Identity.Client.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.pdb
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Logging.pdb
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.pdb
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.pdb
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Tokens.pdb
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Owin.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\Newtonsoft.Json.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\System.IdentityModel.Tokens.Jwt.pdb
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.csprojAssemblyReference.cache
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.csproj.CoreCompileInputs.cache
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.csproj.CopyComplete
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.exe
+C:\Workspace\ypcode\labs\ypcode-spfx-samples\aOS Lux 2019_05_16\CSharpGraphSamples\PVXGraphClientTest\obj\Debug\PVXGraphClientTest.pdb

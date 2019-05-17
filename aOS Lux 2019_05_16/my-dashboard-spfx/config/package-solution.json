@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "my-dashboard-spfx",
+    "id": "a314e9a2-38b5-4f81-953e-2181c1571bbd",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope":"Files.ReadWrite.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope":"Calendars.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope":"Mail.Read"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope":"Group.ReadWrite.All"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/my-dashboard.sppkg"
+  }
+}

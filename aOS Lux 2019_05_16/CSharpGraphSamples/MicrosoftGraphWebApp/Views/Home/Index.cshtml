@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Current = "Home";
+}
+
+<div class="jumbotron">
+
+    <div class="row">
+        <div class="col-12 col-md-2 aosLogo">
+            <img src="~/Content/Images/aos.png" />
+        </div>
+        <div class="col-12 col-md-10">
+            <h1>ASP.NET Graph aOS Demo</h1>
+            <p class="lead">This sample app shows how to use the Microsoft Graph API to access Outlook and OneDrive data from ASP.NET</p>
+        </div>
+    </div>
+ 
+    @if (Request.IsAuthenticated)
+    {
+        <h4>Welcome @ViewBag.User.DisplayName!</h4>
+        <p>Use the navigation bar at the top of the page to get started.</p>
+    }
+    else
+    {
+        @Html.ActionLink("Click here to sign in", "SignIn", "Account", new { area = "" }, new { @class = "btn btn-primary btn-large" })
+    }
+</div>

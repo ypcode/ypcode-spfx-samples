@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Microsoft.Graph.Message>
+
+@{
+    ViewBag.Current = "MyEmails";
+}
+
+<h1>My e-mails</h1>
+
+@foreach (var item in Model)
+{
+    <table class="table mail">
+        <tbody>
+            <tr class="mailHeader">
+                <td>@item.Subject</td>
+                <td>@item.ReceivedDateTime</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    @item.BodyPreview
+                </td>
+            </tr>
+        </tbody>
+    </table>
+}

@@ -1,0 +1,67 @@
+﻿@model MicrosoftGraphWebApp.Models.FilesBrowsingViewModel
+
+@{
+    ViewBag.Current = "MyFiles";
+}
+
+<h1>My files</h1>
+
+<h3>
+    @for (int i=0; i < Model.PathSegments.Length; i++)
+    {
+         var segment = Model.PathSegments[i];
+    <span>
+        @if (i > 0)
+        {
+            <span>&gt;</span>
+        }
+        @if (i == Model.PathSegments.Length - 1)
+        {
+            <span>@segment.Segment</span>
+        }
+        else
+        {
+            @Html.ActionLink($"{segment.Segment}", "MyFiles", "Home", new { path = segment.FullPath }, null)
+
+        }
+    </span>
+    }
+</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th></th>
+            <th scope="col">File</th>
+            <th scope="col">Last modified</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Files)
+        {
+            <tr>
+                <td>
+                    @if (item.Folder != null)
+                    {
+                        <img src="~/Content/Images/open-iconic/svg/folder.svg" alt="Folder" />
+                    }
+                    else
+                    {
+                        <img src="~/Content/Images/open-iconic/svg/file.svg" alt="File" />
+                    }
+                </td>
+                <td>
+                    @if (item.Folder != null)
+                    {
+                        @Html.ActionLink(item.Name, "MyFiles", "Home", new { path = $"{Model.CurrentPath}/{item.Name}" }, null)
+                    }
+                    else
+                    {
+                        @item.Name
+                    }
+                </td>
+                <td>@item.LastModifiedDateTime</td>
+            </tr>
+        }
+    </tbody>
+</table>
