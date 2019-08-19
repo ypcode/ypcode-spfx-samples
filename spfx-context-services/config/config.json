@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-context-service-lab-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spContextServiceLab/SpContextServiceLabWebPart.js",
+          "manifest": "./src/webparts/spContextServiceLab/SpContextServiceLabWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpContextServiceLabWebPartStrings": "lib/webparts/spContextServiceLab/loc/{locale}.js"
+  }
+}

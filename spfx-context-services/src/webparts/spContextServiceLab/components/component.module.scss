@@ -1,0 +1,16 @@
+.component {
+    border: 1px solid black;
+    padding: 25px;
+
+    .title {
+        font-size: large;
+    }
+
+    .realInstanceId {
+        color: green;
+    }
+
+    .instanceIdFromService {
+        color: red;
+    }
+}
