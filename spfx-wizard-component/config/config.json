@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "wizard-host-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/wizardHost/WizardHostWebPart.js",
+          "manifest": "./src/webparts/wizardHost/WizardHostWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WizardHostWebPartStrings": "lib/webparts/wizardHost/loc/{locale}.js"
+  }
+}
