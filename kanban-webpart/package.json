@@ -10,7 +10,7 @@
     "@microsoft/sp-webpart-base": "1.2.0",
     "@types/webpack-env": ">=1.12.1 <1.14.0",
     "jquery": "^3.2.1",
-    "jquery-ui": "^1.12.1",
+    "jquery-ui": "^1.13.2",
     "sp-pnp-js": "2.0.8"
   },
   "devDependencies": {
